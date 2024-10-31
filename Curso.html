@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <meta charset="UTF-8" />
+    <title>Minha página</title>
+    <py-env>
+      - numpy
+    </py-env>
+  </head>
+  <body>
+    <h1>Olá mundo!</h1>
+    <p>Bom dia! Ou noite? Ou tarde? Ah, tanto faz!</p>
+    <img
+      src="https://i.pinimg.com/564x/76/17/33/761733cb0e649b2bfc60198c7fff3dc5.jpg"
+      alt="Patinho do joinha"
+    />
+    <py-script>
+      import numpy as np
+      print("Número escolhido: {}".format(np.random.randint(1, 10)))
+    </py-script>
+  </body>
+</html>
